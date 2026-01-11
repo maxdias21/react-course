@@ -1,0 +1,2 @@
+npm install redux react-redux
+Isso é útil para integrar react com redux

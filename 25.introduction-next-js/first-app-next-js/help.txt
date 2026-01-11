@@ -1,0 +1,24 @@
+app é a pasta mais importante do NextJs
+
+No Next.js, o código em app/page.js é renderizado no servidor (Server-Side Rendering). Por exemplo, se você usar 
+console.log('Testing'), essa mensagem será registrada no terminal do servidor e não no console do navegador. 
+Após a renderização no servidor, o conteúdo gerado é enviado para o navegador.
+
+Rotas
+
+Para definir uma rota (URL) no Next.js, você precisa criar uma pasta dentro de app com o nome da rota desejada e, 
+dentro dessa pasta, adicionar um arquivo chamado page.js.
+Exemplo:
+Se você criar app/about/page.js, a URL correspondente será:
+http://localhost:3000/about.
+
+Para criar uma rota dinâmica, você pode usar colchetes. Por exemplo:
+Se você criar app/post/[slug]/page.js, a URL correspondente será:
+http://localhost:3000/post/post-1.
+Se desejar aninhar a rota sob um prefixo como /blog, crie a estrutura app/blog/post/[slug]/page.js. A URL será:
+http://localhost:3000/blog/post/post-1.
+Isso faz com que eu receba um objeto chamado params onde eu posso pegar o nome do slug, posso ver o exemplo na rota blog
+
+Favicon
+Se na pasta da sua rota você tiver um arquivo chamado "icon.png", o Next.js automaticamente
+irá usá-lo como o Favicon. O Favicon é a imagem que aparece ao lado do título da página no navegador.

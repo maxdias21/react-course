@@ -1,0 +1,3 @@
+Esse projeto e os comandos eu já estendo, aqui é apenas eu me conectando a bd que foi criado pelo professor
+Útil apenas algumas informações como usar o useEffect/como usar async em funções react... porém o node não é nesse curso
+(pelo menos não nessa aula rs)

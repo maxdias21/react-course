@@ -1,0 +1,4 @@
+useConsume é aquele que só faz um "for" uma vez
+
+contexto é usado para evitar múltiplas props, exemplo -> passo uma prop para um componente porém esse componente
+só vai usar a prop para passar para um outro componente, muito melhor usar os contextos

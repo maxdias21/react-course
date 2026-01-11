@@ -1,0 +1,4 @@
+npm install cd backend
+
+depois de fazer isso vai na pasta backend usando cd 
+depois o comando -> node app.js

@@ -1,0 +1,38 @@
+// Layouts no Next.js são componentes React que envolvem páginas para reutilizar 
+// estruturas comuns como cabeçalhos e rodapés. O conteúdo específico de cada 
+// página é passado como "children". Funciona de forma semelhante ao {% extends %} 
+// do Django.
+
+// O Next.js renderiza tudo no servidor por padrão. Para usar hooks como useEffect 
+// e useState, que devem ser executados no lado do cliente, adicione a diretiva 
+// "use client" no início do arquivo.
+'use client'; // Diretiva que garante que o código será executado no cliente, 
+// permitindo o uso de hooks como useEffect e useState.
+
+// O banco de dados é configurado usando a biblioteca "better-sqlite3". Instale com 
+// 'npm install better-sqlite3' e inicialize o banco com 'node initdb.js' (arquivo 
+// initdb.js deve estar na raiz).
+
+// Em Next.js, funções podem ser assíncronas dentro de métodos como getServerSideProps 
+// ou em rotas de API. Em componentes React, evite usar funções assíncronas diretamente 
+// no código de renderização.
+
+// O Next.js usa um arquivo "Error" (ex: error.js) para exibir uma página de erro 
+// personalizada quando um erro é lançado, tornando o tratamento de falhas e a 
+// interface de erro mais controlados.
+
+// O Next.js usa um arquivo "Loading" (ex: loading.js) para exibir uma página de carregamento 
+// enquanto os dados estão sendo processados ou carregados. Para funcionar corretamente, 
+// é necessário utilizar funções assíncronas (async) para carregar dados no servidor ou cliente, 
+// melhorando a experiência do usuário ao fornecer um feedback visual durante o carregamento.
+
+// O Next.js usa um arquivo "not-found" (ex: not-found.js) para exibir uma página de erro personalizada
+// sempre que uma rota não encontrada for acessada. Esse arquivo é utilizado no novo diretório "app"
+// (introduzido no Next.js 13+). Ele substitui a antiga página "404.js" usada no diretório "pages".
+// A página "not-found.js" é carregada automaticamente pelo Next.js quando necessário, permitindo 
+// personalizar a aparência e o conteúdo da página de erro 404.
+// Isso melhora a experiência do usuário ao fornecer uma mensagem clara de que a página solicitada 
+// não existe, ajudando a orientar o usuário de volta a um caminho válido.
+
+
+

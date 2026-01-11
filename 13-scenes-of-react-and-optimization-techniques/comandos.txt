@@ -1,0 +1,11 @@
+O hook memo, significa que um estado só é renderizado se a prop mudar
+Por exemplo, no código abaixo, se por algum motivo o Header atualizar o 
+Counter atualiza junto, às vezes o filho não precisa renderizar, o memo só
+renderiza caso a prop (no caso number) mude.
+
+<Header>
+  <Counter number={number}/>
+<Header />
+
+O hook useMemo é parecido, só que ele é apenas para funções normais JS
+

@@ -1,0 +1,5 @@
+// Para criar o arquivo package.json - Vá até sua pasta e digite o comando npm init -y
+
+// Instalar redux = npm install redux
+
+// Executar node = node redux-demo.js

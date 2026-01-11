@@ -1,0 +1,13 @@
+NewEventsSection está com comentários
+FindEventSection vai estar com comentários menores para evitar repetições
+
+Dica 1
+Uma das formas de ver o que ele faz é a seguinte: Abro o console e vou em network, não vai ter nada, se eu ir pra qualquer outro site
+e voltar, ele automaticamente faz uma requisição no servidor e se notar algo diferente ele faz as alterações no site.
+
+Dica 2
+O react query usa cache para manter algumas informações, exemplo: estou na página inicial do meu site de notícias, vou para login e depois
+volto para notícias, o react query mantém o estado antigo e faz uma solicitação para buscar novos dados, se tiver alguma alteração ele altera.
+Se não fosse o react query, eu usaria o useEffect, porém ao voltar do login -> home, ele faz a solicitação e não mantém o estado antigo pois
+ele não faz cache.
+IMAGENS/VÍDEOS NÃO SÃO ARMAZENADAS EM CACHE

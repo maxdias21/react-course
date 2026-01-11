@@ -1,0 +1,2 @@
+Instalar redux
+Comando: npm install redux

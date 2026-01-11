@@ -1,0 +1,2 @@
+// defer - o script só vai funcionar quando o HTML da página for carregado por completo
+script src="./assets/scripts/app.js" defer></script>

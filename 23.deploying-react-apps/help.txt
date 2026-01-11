@@ -1,0 +1,27 @@
+// A primeira coisa que fiz foi os lazy loading (está tudo comentado em App.js)
+// A segunda é jogar esse comando no terminal npm run build
+
+// Usei o firebase para hospedar meu site
+// Usa esse comando npm install -g firebase-tools
+// No site do firebase, clica em hosting e vai ter o tutorial igual o que está abaixo
+
+// Depois o próximo comando: firebase login
+// Isso abriu meu navegador e fiz login com minha conta google
+// Se der erro o comando firebase login, tem que desativar algo no windows powershell
+// Get-ExecutionPolicy
+// Set-ExecutionPolicy RemoteSigned
+
+// Próximo comando: firebase init
+// Coloquei essa opção  Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+// Use an existing project
+// ? What do you want to use as your public directory? = digito "build" sem aspas
+? Configure as a single-page app (rewrite all urls to /index.html)? (y/N)  = y
+Set up automatic builds and deploys with GitHub? (y/N) = n
+File build/index.html already exists. Overwrite? (y/N) = n
+
+// Depois o comando = firebase deploy
+
+// Minha url 
+// https://react-deploy-demo-c2391.web.app
+
+

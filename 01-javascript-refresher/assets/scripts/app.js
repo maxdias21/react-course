@@ -1,0 +1,4 @@
+function tellMeHi() {
+  alert('Hi');
+}
+

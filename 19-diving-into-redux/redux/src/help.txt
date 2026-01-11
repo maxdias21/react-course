@@ -1,0 +1,3 @@
+Tenho que instalar dois pacotes manualmente, segue eles
+
+// npm install redux react-redux

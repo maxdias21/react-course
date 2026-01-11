@@ -1,0 +1,6 @@
+npm install redux react-redux
+Isso é útil para integrar react com redux
+
+npm install @reduxjs/toolkit
+Instalar redux toolkit | não preciso instalar o comando acima, pois o toolkit já vem o com redux instalado
+

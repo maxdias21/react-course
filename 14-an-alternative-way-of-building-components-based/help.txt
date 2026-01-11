@@ -1,0 +1,1 @@
+Esse projeto é como as pessoas usavam antigamenteo React, com classe ao invés de funções

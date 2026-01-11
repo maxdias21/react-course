@@ -1,0 +1,16 @@
+// Serve para deixar o react 70% mais rápido
+// documentação logo abaixo:
+// https://million.dev/docs
+// para fazer funcionar no vite, tenho que fazer os seguintes ajustes
+// no arquivo vite.config.js, apagar tudo e colocar o que está abaixo
+
+import MillionLint from "@million/lint";
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  plugins: [MillionLint.vite()],
+});
+
+// no vscode, instala uma extensão chamada Million Lint
+
+// tudo isso tem na doc, é bem fácil (até pra mim) configurar e manter atualizado
